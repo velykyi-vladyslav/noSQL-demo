@@ -15,4 +15,6 @@ public interface UserSummaryMongoMapper {
     UserSummaryMongo dtoToUserSummaryMongo(UserSummaryDto userSummaryDto);
 
     List<UserSummaryMongo> mapUserSummaryList (List<UserSummary> userSummaryList);
+
+    List<UserSummaryDto> mapUserSummaryMongoList (List<UserSummaryMongo> userSummaryList);
 }
